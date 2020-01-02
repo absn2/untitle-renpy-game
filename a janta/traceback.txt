@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 82, in script
+    jump flerteGarçonete
+ScriptError: could not find label 'flerteGarçonete'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 82, in script
+    jump flerteGarçonete
+  File "C:\Users\Antonio\Desktop\jogo interativo\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Antonio\Desktop\jogo interativo\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'flerteGarçonete'.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+A janta 1.0
+Thu Jan 02 02:51:55 2020

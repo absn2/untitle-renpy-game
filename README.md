@@ -1,0 +1,1 @@
+Jogo estilo visual novel de teste prototipo.
